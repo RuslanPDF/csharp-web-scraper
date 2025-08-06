@@ -13,8 +13,8 @@ class Program
             WriteIndented = true
         };
         
-        var inputPath = "beauty.jsonl";
-        var outputPath = "output.json";
+        var inputPath = "excel_pos.jsonl";
+        var outputPath = "excel_pos.json";
         var objects = new List<JsonElement>();
 
         int lineNumber = 0;

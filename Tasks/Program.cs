@@ -114,8 +114,8 @@ namespace CombinedProcessingApp
         {
             try
             {
-                string name = "service and trade";
-                string inputJsonPath = $"combine_results/valid_description_about.json";
+                string name = "оптовик";
+                string inputJsonPath = $"excel_pos.json";
                 string outputFilteredPath = "filtered_output.json";
                 string outputCleanSitesPath = "clean_sites.json";
                 string outputValidDescPath = $"{name}/valid_description_about.json";
